@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="200" viewBox="0 0 590 200" role="img" aria-label="mcp-scanner-benchmark">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#111a2e"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#60a5fa"/>
+  </linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#1f2a44"/>
+  </pattern>
+  <radialGradient id="glow" cx="0.85" cy="0.1" r="0.7">
+    <stop offset="0" stop-color="#60a5fa" stop-opacity="0.18"/><stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="590" height="200" rx="16" fill="url(#g)"/>
+<rect width="590" height="200" rx="16" fill="url(#glow)"/>
+<rect x="0.5" y="0.5" width="589" height="199" rx="16" fill="none" stroke="#1f2a44"/>
+<rect x="0" y="0" width="4" height="200" rx="2" fill="url(#accent)"/>
+<text x="28" y="46" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="19" font-weight="700" fill="#f1f5f9">mcp-scanner-benchmark</text>
+<text x="464" y="43" text-anchor="end" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#64748b">Published · MIT</text>
+<text x="28" y="80" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">The referee for MCP security scanners. Every vulnerable case is paired with</text><text x="28" y="100" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">a fixed twin, so a scanner that flags both is proven to have detected nothing.</text>
+<text x="28" y="146" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="#f1f5f9" letter-spacing="-0.5">32</text><text x="28" y="166" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#64748b" letter-spacing="0.4">LABELED CASES</text><text x="203" y="146" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="#f1f5f9" letter-spacing="-0.5">9</text><text x="203" y="166" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#64748b" letter-spacing="0.4">SCANNER ADAPTERS</text><text x="378" y="146" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="#f1f5f9" letter-spacing="-0.5">6</text><text x="378" y="166" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="11.5" fill="#64748b" letter-spacing="0.4">ISSUES CAUGHT PRE-RELEASE</text>
+<g transform="translate(478, 26)">
+  <rect width="84" height="26" rx="13" fill="#60a5fa" fill-opacity="0.12" stroke="#60a5fa" stroke-opacity="0.45"/>
+  <circle cx="16" cy="13" r="4" fill="#60a5fa"/>
+  <text x="28" y="17" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#60a5fa">Python</text>
+</g>
+</svg>

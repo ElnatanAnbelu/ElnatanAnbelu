@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Elnatan Anbelu">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#111a2e"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#60a5fa"/>
+  </linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#1f2a44"/>
+  </pattern>
+  <radialGradient id="glow" cx="0.85" cy="0.1" r="0.7">
+    <stop offset="0" stop-color="#60a5fa" stop-opacity="0.18"/><stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="1000" height="260" rx="18" fill="url(#g)"/>
+<rect width="1000" height="260" rx="18" fill="url(#grid)"/>
+<rect width="1000" height="260" rx="18" fill="url(#glow)"/>
+<rect x="0.5" y="0.5" width="999" height="259" rx="18" fill="none" stroke="#1f2a44"/>
+<rect x="48" y="52" width="44" height="4" rx="2" fill="url(#accent)"/>
+<text x="48" y="112" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="#f1f5f9" letter-spacing="-1.5">Elnatan Anbelu</text>
+<text x="48" y="150" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="19" fill="#94a3b8">Software / AI engineer in training. I build tools that measure how AI systems actually behave.</text>
+<rect x="48" y="192" width="268" height="26" rx="13" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.45"/><text x="182.0" y="209" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#34d399">4.0 GPA · Dakota State University</text><rect x="328" y="192" width="231" height="26" rx="13" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-opacity="0.45"/><text x="443.5" y="209" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#f59e0b">2 published evaluation tools</text>
+<g font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="13" fill="#64748b">
+  <text x="952" y="66" text-anchor="end">github.com/ElnatanAnbelu</text>
+  <text x="952" y="88" text-anchor="end">Madison, SD · EN / አማርኛ</text>
+</g>
+</svg>
